@@ -5,8 +5,7 @@ class Cat
    @mood = mood
   end
   
-  attr_reader :name
-  attr_reader :mood
+  attr_reader :name, :mood
 
 end
 
