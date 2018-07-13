@@ -6,4 +6,4 @@ class Cat
 
 end
 
-Cat.new("crookshanks")
+cat = Cat.new("crookshanks")
