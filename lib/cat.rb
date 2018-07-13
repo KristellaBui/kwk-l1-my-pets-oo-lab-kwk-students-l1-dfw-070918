@@ -1,6 +1,6 @@
 class Cat
   
-  def initialize(name, mood)
+  def initialize(name, mood = "nervous")
    @name = name
    @mood = mood
   end
@@ -9,4 +9,4 @@ class Cat
 
 end
 
-cat = Cat.new("crookshanks", "nervous")
+cat = Cat.new("crookshanks")
